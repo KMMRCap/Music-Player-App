@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+#root{
+    width: 100vw;
+    height: 100vh;
+}
+
+@media (max-width: 992px) {
+    .box-slider{
+        width: 90% !important;
+    }
+
+    .box-slider h6{
+        margin-right: 16px !important;
+    }
+
+    .box-slider button{
+        margin: 0 !important;
+    }
+
+    .box-slider button h6{
+        margin-right: 0 !important;
+    }
+}
